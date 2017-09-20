@@ -90,6 +90,7 @@
   ],
 
   "zooming_entrances": [
+    "zoomInReverse",
     "zoomIn",
     "zoomInDown",
     "zoomInLeft",

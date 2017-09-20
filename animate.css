@@ -45,7 +45,7 @@
   }
 
   90% {
-    transform: translate3d(0,-4px,0);
+    transform: translate3d(0, -4px, 0);
   }
 }
 
@@ -1278,6 +1278,21 @@
 
 .rollOut {
   animation-name: rollOut;
+}
+
+@keyframes zoomInReverse {
+  from {
+    opacity: 0;
+    transform: scale3d(3, 3, 3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+.zoomInReverse {
+  animation-name: zoomInReverse;
 }
 
 @keyframes zoomIn {
